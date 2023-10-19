@@ -1,0 +1,110 @@
+body, h1, ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f5f5f5;
+	background-image: url("food.jpg");
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+header {
+	background-color: #ffffff;
+	color: white;
+	text-align: center;
+	opacity: 85%;
+}
+
+header h1 {
+	font-size: 36px;
+}
+
+nav {
+	background-color: #3b3b3b;
+	text-align: center;
+	opacity: 85%;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 20px;
+}
+
+a, a:link, a:visited {
+  color: #FFFAFA;
+  text-decoration: none;
+}
+
+.whiteText{
+	color: white;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+/* 
+.login-container-for-table{
+
+} */
+
+.login-container {
+	text-align: center;
+	margin-top: 7%;
+}
+
+.login-button {
+	display: block;
+	padding: 10px 20px;
+	width: 190px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 15px;
+	transition: background-color 0.3s ease;
+	background-color: #ffffff;
+	opacity: 80%;
+	color: #241212;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+footer {
+	background-color: #3b3b3b;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 14px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	opacity: 94%;
+}
+
+.restaurant-logo {
+	width: 15%;
+}
+
+input[type=text], input[type=password],input[type=number] {
+	width: 250px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	opacity: 90%;
+	border-style: none;
+	font-size: 20px;
+}
